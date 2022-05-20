@@ -1,0 +1,99 @@
+.App {
+  text-align: center;
+  font-family: 'Open Sans', sans-serif;
+}
+
+Footer {
+  bottom: 0;
+  font-size: 15px;
+  left:0;
+  padding: 10px;
+  padding-top: 5%;
+  position: relative;
+  right:0;
+  text-align: center;
+  width: 100%;
+}
+
+h1 {
+  font-size: 6rem;
+  font-family: 'WindSong', cursive;
+}
+
+Header {
+  /* float: left; */
+  /* position: fixed; */
+  float: right;
+  /* padding-right: 1%; */
+}
+
+.language-image {
+  max-height: 4em;
+  max-width: 4em;
+}
+
+link {
+  text-decoration: none;
+}
+
+link :visited {
+  text-decoration: none;
+
+}
+
+link :hover {
+  cursor: pointer;
+}
+
+Nav {
+  /* padding-left: 20px; */
+  font-size: 1.5em;
+}
+
+.project-image {
+  max-width: 35%;
+}
+
+.projects {
+  display:flex;
+  width: 300px;
+  flex-direction: column;
+  margin:30px;
+  background-color: white;
+  border-radius: 10px;
+  padding-bottom: 5px;
+}
+
+.wrapper {
+  display:flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin: 100px 0 0 0;
+  padding-bottom: 100px;
+}
+
+
+
+header {
+  position: relative;
+  width: 100%;
+  z-index: 1000;
+  background: white;
+  text-align: center;
+}
+
+header nav a {
+  padding: 10px 20px;
+  font-size: 1rem;
+  color: black;
+  border-radius: 5px;
+  letter-spacing: 0.5px;
+}
+
+header nav a:hover,
+header nav a.active {
+  background: lightblue;
+  color: white;
+  transition: 0.25s ease-out;
+  letter-spacing: 1px;
+}
