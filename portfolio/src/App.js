@@ -14,7 +14,7 @@ function App() {
 
   return (
     <div className="App">
-      <div>
+      <div className='banner'>
         <h1>Yang</h1>
       </div>
       <div className = 'header'>

@@ -3,6 +3,12 @@
   font-family: 'Open Sans', sans-serif;
 }
 
+button {
+  padding: 10px 20px;
+  border-radius: 5px;
+  margin: 1%;
+}
+
 Footer {
   bottom: 0;
   font-size: 15px;
@@ -20,11 +26,24 @@ h1 {
   font-family: 'WindSong', cursive;
 }
 
+/* .h1 :hover:after {
+  content: attr(data-hover);
+  content: "Software Engineer"
+} */
+
+h3 :hover {
+  cursor: pointer;
+}
+
 Header {
   /* float: left; */
   /* position: fixed; */
   float: right;
   /* padding-right: 1%; */
+}
+
+input {
+  
 }
 
 .language-image {

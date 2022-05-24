@@ -12,8 +12,8 @@ const Nav = () => {
                 <Link to='/projects'> Projects</Link> | 
                 {/* <br /> */}
                 <Link to='/aboutme'> About Me</Link> | 
-                {/* <br />
-                <Link to='/resume'> Resume</Link>  */}
+                {/* <br /> */}
+                <Link to='/resume'> Resume</Link> 
             </nav>
         </header>
         </div>
